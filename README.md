@@ -1,5 +1,5 @@
-# js-sorting-algorithms
-Some sorting algorithms implemented by javascript.
+# js-algorithms
+Some algorithms implemented by javascript.
 
 ## heap sorting
 

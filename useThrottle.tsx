@@ -13,7 +13,7 @@ function useThrottle<T>(value: T, interval = 500): T {
         lastExecuted.current = Date.now()
         setThrottledValue(value)
       }, interval)
-
+　　
       return () => clearTimeout(timerId)
     }
   }, [value, interval])
